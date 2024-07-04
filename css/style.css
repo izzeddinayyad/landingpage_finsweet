@@ -1,9 +1,13 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     text-transform: capitalize;
-    font-family: "Poppins";
+    font-family: "Poppins,sans-serif";
+    text-decoration: none;
+    list-style: none;
 }
+
 .container{
     width: 80%;
     margin: auto;
@@ -148,4 +152,178 @@ nav.navbar .hero_links ul li a.hero_btn{
  {
     margin-bottom: 16px;
  }
- 
+ /* our work section --------------------------------------*/
+ .our_work_sec{
+   margin-bottom: 128px;
+ }
+.our_work_sec .container .heading{
+   display: flex;
+   justify-content: space-between;
+   padding: 60px 0 ;
+}
+.our_work_sec .container .heading a{
+   text-decoration: none;
+   color: darkblue;
+
+}
+.our_work_sec .container .content{
+   display: flex;
+   justify-content: space-between;
+}
+.our_work_sec .container .content .card_1{
+   margin-right: 23px;
+   width: 60%;
+}
+.our_work_sec .container .content .card_1 img{
+   width: 100%;
+   height: 100%;
+}
+.our_work_sec .container .content .card_2{
+   width: 40%;
+}
+.our_work_sec .container .content .card_2 img{
+   width: 90%;
+}
+.our_work_sec .container .content .card_2 img.m_5{
+   margin-bottom: 32px;
+}
+/* features section =================================== */
+.Features_sec{
+   background:#F4F6FC;
+}
+.Features_sec .container .heading{
+   /* text-align: center; */
+   padding: 128px 0px ;
+   /* width: 50%; */
+   /* margin: auto; */
+}
+.Features_sec .container .heading h5{
+   color: darkblue;
+   padding: 12px;
+   text-align: center;
+
+}
+.Features_sec .container .heading p.content1{
+   color: rgb(1, 1, 44);
+   font-size: 40px;
+   width: 35%;
+   margin: auto;
+   text-align: center;
+}
+.Features_sec .container .cards{
+margin-bottom: 24px;
+margin-top: 24px;
+/* padding: 1px; */
+/* width: 100% !important; */
+}
+
+.Features_sec .container .cards .card1,
+.Features_sec .container .cards .card2{
+   /* padding: 24px; */
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 31px;
+
+}
+.Features_sec .container .cards .card1 div,
+.Features_sec .container .cards .card2 div{
+   background: white;
+   font-size: 18px;
+   padding: 48px;
+}
+.Features_sec .container .cards .card1 div.m-5,
+.Features_sec .container .cards .card2 div.m-5{
+   margin: 0 32px;
+}
+.Features_sec .container .cards .card1 div h2,
+.Features_sec .container .cards .card2 div h2{
+   font-size: 24px;
+   padding: 10px 0;
+}
+.Features_sec .container .cards .card1 div p ,
+.Features_sec .container .cards .card2 div p {
+   /* justify-content: left; */
+   text-align: left !important;
+   font-size: 18px;
+   color: rgb(7, 7, 60);
+}
+
+/* Testimonials section-------------------------------------- */
+.Testimonials-sec {
+   
+   background: #F4F6FC;
+}
+.Testimonials-sec  .container .row{
+   display: flex;
+   justify-content: space-between;
+   padding: 128px 0;
+}
+.Testimonials-sec  .container .row .head{
+   width: 30%;
+   margin-right: 110px ;
+}
+.Testimonials-sec  .container .row .head h2{
+   font-size: 35px;
+}
+.Testimonials-sec  .container .row .head p{
+   font-size: 18px;
+   margin-top: 16px;
+   color: #282938;
+}
+
+
+.Testimonials-sec  .container .row .content {
+   width: 70%;
+}
+.Testimonials-sec .container .row .content p{
+   font-size: 35px;
+   color: #282938;
+   margin-bottom: 48px;
+}
+
+.Testimonials-sec .container .row .content .profile{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.Testimonials-sec .container .row .content .profile .image{
+   display: flex;
+   justify-content: space-between;
+}
+.Testimonials-sec .container .row .content .profile img{
+   border-radius: 50%;
+   width: 50%;
+   display: inline-block;
+}
+.name{
+   margin-left: 15px;
+   display: flex;
+   width:140%;
+   font-size: 12px;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+/*EAQ section ------------------------------- */
+.FAQ-sec .container .row{
+   display: flex;
+   padding: 100px 0;
+   justify-content: space-between;
+}
+.FAQ-sec .container .row .head{
+   width: 40%;
+}
+.FAQ-sec .container .row .question{
+   width: 60%;
+}
+.FAQ-sec .container .row .head h2{
+   font-size: 35px;
+   width: 53%;
+   padding-bottom: 16px ;
+}
+.FAQ-sec .container .row .head a {
+   font-size: 15px;
+}
+.FAQ-sec .container .row .question{
+   
+}
