@@ -33,7 +33,6 @@ body{
 nav.navbar{
     display: flex;
     justify-content: space-between;
-    /* height: 100px; */
     align-items: center;
     padding: 25px 0;
     margin-bottom: 145px;
@@ -41,7 +40,6 @@ nav.navbar{
 nav.navbar h2{
     color: aliceblue;
     font-family: "poppins";
-    /* height:70px ; */
     font-size: 20px;
 }
 nav.navbar .hero_links ul{
@@ -66,7 +64,6 @@ nav.navbar .hero_links ul li a.hero_btn{
     padding:  20px 30px;
 }
  .hero_content{
-    /* margin: 100px 0; */
     display: flex;
     justify-content: space-between;
     padding-bottom: 80px;
@@ -134,19 +131,16 @@ nav.navbar .hero_links ul li a.hero_btn{
     font-size: 18px;
     padding: 16px 0;
     color: royalblue;
-    /* margin-top: 50px; */
  }
  .how_sec .container .heading a.arrow {
     color: royalblue;
     margin-left: 10px;
-    /* display: ; */
  }
  .how_sec .container .cards{
     width: 60%;
  }
  .how_sec .container .cards .card_1,
  .how_sec .container .cards .card_2{
-    /* width: 50%; */
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
@@ -197,10 +191,7 @@ nav.navbar .hero_links ul li a.hero_btn{
    background:#F4F6FC;
 }
 .Features_sec .container .heading{
-   /* text-align: center; */
    padding: 128px 0px ;
-   /* width: 50%; */
-   /* margin: auto; */
 }
 .Features_sec .container .heading h5{
    color: darkblue;
@@ -218,13 +209,10 @@ nav.navbar .hero_links ul li a.hero_btn{
 .Features_sec .container .cards{
 margin-bottom: 24px;
 margin-top: 24px;
-/* padding: 1px; */
-/* width: 100% !important; */
 }
 
 .Features_sec .container .cards .card1,
 .Features_sec .container .cards .card2{
-   /* padding: 24px; */
    display: flex;
    justify-content: space-between;
    margin-bottom: 31px;
@@ -415,9 +403,7 @@ margin-top: 24px;
    opacity: 0.5;
    z-index: 1;
 }
-/* .contact-sec .container .row .head img{
-width: 100%;
-} */
+
 .contact-sec .container .row .head .content{ 
    padding:  120px ;
    color: white;
@@ -440,12 +426,10 @@ width: 100%;
 }
 .contact-sec .container .row .form-sec h2{
    font-size: 35px;
-   /* color: white; */
    padding-bottom: 15px;
 }
 .contact-sec .container .row .form-sec p{
    font-size: 10px;
-   /* width: 103%; */
    padding-bottom: 15px;
    line-height: 30px;
 }
@@ -470,7 +454,6 @@ width: 100%;
 .contact-sec .container .row .form-sec span {
    display: block;
    margin: 0 40px;
-   /* width: 100%;   */
 
 }
 /* blog-section======================================================================= */
@@ -482,7 +465,6 @@ width: 100%;
 .blog-sec .container .row{
    margin-bottom: 64px;
    display: flex;
-   /* justify-content: space-between; */
 
 }
 .blog-sec .container .row .col.m-5{
