@@ -5,7 +5,9 @@
     font-family: sans-serif;
 }
 
-
+body{
+    background: white;
+}
 
 
 
@@ -24,7 +26,7 @@
     width: 50%;
 }
 .hero-about .container .row .col1{
-    width: 60%;
+    width: 50%;
     margin-right: 250px;
 }
 .hero-about .container .row .col1 h3{
@@ -35,24 +37,325 @@
 .hero-about .container .row .col1 h2{
     font-size: 35px;
     font-weight: 700;
-    padding-bottom: 31px;
-    width: 70%;
+    padding: 60px 0;
+    padding-bottom: 70px;
+    width: 50%;
     font-family: sans-serif;
 }
 .hero-about .container .row .col1 p {
     color: #595a5a;
-    font-size: 14px;
+    padding: 30px 0;
+    font-size: 16px;
 }
 .hero-about .container .row .col2{
     /* width: 60%; */
     /* margin: auto; */
     /* height: 200px; */
-    width: 40%;
+    width: 50%;
 }
 .hero-about .container .row .col2 img{
     width: 100%;
-    height: 200px;
+    height: 100%;
 }
+
+
+/* who we are section =========================================================== */
+.who-we-are-sec .container .row .row1{
+    display: flex;
+    justify-content: space-between;
+    background: #F4F5F5;
+}
+.who-we-are-sec .container .row .row1 div{
+    width: 50%;
+    padding: 80px;
+}
+
+.who-we-are-sec .container .row .row1 div h3{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.who-we-are-sec .container .row .row1 div h2{
+    font-weight: 500;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-bottom: 16px;
+}
+.who-we-are-sec .container .row .row1 div p{
+    font-size: 14px;
+    color: #595a5a;
+}
+.who-we-are-sec .container .row .row2 img{
+    width: 100%;
+}
+/* progress section ===============================================================*/
+.progress-sec .container .row {
+    padding: 128px 0;
+}   
+.progress-sec .container .row h2 {
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.progress-sec .container .row .cards{
+    display: flex;
+    justify-content: space-between;
+}
+.progress-sec .container .row .cards .card{
+    width: 24%;
+}
+.progress-sec .container .row .cards .card .line {
+    display: flex;
+    margin-bottom: 32px;
+
+    align-items: center;
+}
+.progress-sec .container .row .cards .card .line .line1{
+
+    border: 2px dotted #2405F2;
+    width: 70%;
+}
+.progress-sec .container .row .cards .card .line .circle{
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    /* display: inline-block; */
+    border-radius: 50%;
+    background: #2405F2;
+}
+.progress-sec .container .row .cards .card h3{
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.progress-sec .container .row .cards .card p{
+    font-size: 18px;
+    color: #595a5a;
+}
+/* our mission section ============================================================= */
+
+
+.our-mission-sec{
+    background: #EEF4FA;
+}
+.our-mission-sec .container .row .row1,
+.our-mission-sec .container .row .row2{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 54px 0; */
+    padding-top: 100px;
+}
+
+.our-mission-sec .container .row .row1 .content,
+.our-mission-sec .container .row .row1 .image,
+.our-mission-sec .container .row .row2 .content,
+.our-mission-sec .container .row .row2 .image{
+    width: 50%;
+    padding-top: 54px ;
+}
+.our-mission-sec .container .row .row1 .content h3,
+.our-mission-sec .container .row .row2 .content h3{
+    font-size: 14px;
+    margin-bottom: 60px;
+}
+.our-mission-sec .container .row .row1 .content h2,
+.our-mission-sec .container .row .row2 .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    margin-top: 30px;
+
+}
+.our-mission-sec .container .row .row1 .content p,
+.our-mission-sec .container .row .row2 .content p{
+    font-size: 18px;
+    color: #595a5a;
+    width: 79%;
+
+}
+.our-mission-sec .container .row .row1 .image img,
+.our-mission-sec .container .row .row2 .image img{
+    width: 90%;
+}
+
+/* benifits section ======================================== */
+.benifits-sec {
+    padding: 128px 0;
+}
+.benifits-sec .container .row h2{
+    font-weight: 400;
+    font-size: 35px;
+    width: 35%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.benifits-sec .container .row .cards{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.benifits-sec .container .row .cards .card{
+    width: 30%;
+    padding: 50px 48px ;
+    background: #F4F6FC;
+}
+.benifits-sec .container .row .cards .card a{
+    color: #2405F2;
+    display: inline-block;
+    margin-bottom: 26px;
+}
+.benifits-sec .container .row .cards .card h3{
+    font-size: 24px;
+    margin-bottom: 12px;
+    
+}
+.benifits-sec .container .row .cards .card p{
+    color: #595a5a;
+    margin: 16px 0;
+}
+.benifits-sec .container .row .lego{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 48px;
+    align-items: center;
+}
+.benifits-sec .container .row .lego .lego-num{
+    width: 20%;
+
+}
+.benifits-sec .container .row .lego .lego-num h3{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.benifits-sec .container .row .lego .lego-num span{
+    color: #595a5a;
+    font-size: 12px;
+}
+.benifits-sec .container .row .lego .lego-wrap{
+    width: 80%;
+}
+.benifits-sec .container .row .lego .lego-wrab img{
+    width: 15%;
+    margin-left:  40px;
+}
+/* out team section ================================================================== */
+.team-sec{
+    background: #F4F6FC;
+    padding: 128px 0;
+}
+.team-sec .container h2{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.team-sec .container .cards{
+    display: flex;
+    justify-content: space-between;
+
+}
+.team-sec .container .cards .card{
+    width: 20%;
+    padding: 48px 60px;
+    background: #fff;
+}
+.team-sec .container .cards .card img{
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.team-sec .container .cards .card h3{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+}
+.team-sec .container .cards .card h4{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #595a5a;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
