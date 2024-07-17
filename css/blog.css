@@ -1,16 +1,52 @@
 /* blog style  */
 
 
+.stady-sec .container .head{
+    margin-bottom: 30px;
+}
+.stady-sec .container .head h1{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.stady-sec .container .head h3{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+.stady-sec .container .body-img img{
+    width: 100%;
+}
 
+.stady-sec .container  .foot{
+    margin-top: 30px;
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0;
+}
+.stady-sec .container .foot p{
+    color: gray;
+    margin-bottom: 15px;
+}
+.stady-sec .container .foot a{
+    /* color: ; */
+    display: inline-block;
+    text-decoration: none;
+}
 
+/* blog-sec */
+.blog-sec .container  .header{
+    margin: 40px auto;
+    text-align: center;
 
-
-
-
-
-
-
-
+}
 
 
 
