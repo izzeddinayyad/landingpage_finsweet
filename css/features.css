@@ -1,0 +1,114 @@
+body{
+    font-family: sans-serif;
+    background: #Fff;
+}
+
+/* benifits section ======================================== */
+.benifits-sec {
+    padding: 128px 0;
+}
+.benifits-sec .container .row h2{
+    font-weight: 400;
+    font-size: 35px;
+    width: 35%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.benifits-sec .container .row .cards{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.benifits-sec .container .row .cards .card{
+    width: 30%;
+    padding: 50px 48px ;
+    background: #F4F6FC;
+}
+.benifits-sec .container .row .cards .card a{
+    color: #2405F2;
+    display: inline-block;
+    margin-bottom: 26px;
+}
+.benifits-sec .container .row .cards .card h3{
+    font-size: 24px;
+    margin-bottom: 12px;
+    
+}
+.benifits-sec .container .row .cards .card p{
+    color: #595a5a;
+    margin: 16px 0;
+}
+.benifits-sec .container .row .lego{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 48px;
+    align-items: center;
+}
+.benifits-sec .container .row .lego .lego-num{
+    width: 20%;
+
+}
+.benifits-sec .container .row .lego .lego-num h3{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.benifits-sec .container .row .lego .lego-num span{
+    color: #595a5a;
+    font-size: 12px;
+}
+.benifits-sec .container .row .lego .lego-wrap{
+    width: 80%;
+}
+.benifits-sec .container .row .lego .lego-wrab img{
+    width: 15%;
+    margin-left:  40px;
+}
+/* our mission section ============================================================= */
+
+
+.our-mission-sec{
+    background: #EEF4FA;
+}
+.our-mission-sec .container .row .row1,
+.our-mission-sec .container .row .row2{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 54px 0; */
+    padding-top: 100px;
+}
+
+.our-mission-sec .container .row .row1 .content,
+.our-mission-sec .container .row .row1 .image,
+.our-mission-sec .container .row .row2 .content,
+.our-mission-sec .container .row .row2 .image{
+    width: 50%;
+    padding-top: 54px ;
+}
+
+
+.our-mission-sec .container .row .row1 .content h3,
+.our-mission-sec .container .row .row2 .content h3{
+    font-size: 14px;
+    margin-bottom: 60px;
+}
+.our-mission-sec .container .row .row1 .content h2,
+.our-mission-sec .container .row .row2 .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    margin-top: 30px;
+
+}
+.our-mission-sec .container .row .row1 .content p,
+.our-mission-sec .container .row .row2 .content p{
+    font-size: 18px;
+    color: #595a5a;
+    width: 79%;
+
+}
+.our-mission-sec .container .row .row1 .image img,
+.our-mission-sec .container .row .row2 .image img{
+    width: 90%;
+}
